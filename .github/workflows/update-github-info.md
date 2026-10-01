@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 safe-outputs:
   create-pull-request:
@@ -26,10 +27,11 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and `site/content/github-info.md` first. Use the notes as editorial guidance and preserve the page's focus and existing useful content.
 
-Use `web-fetch` to read both:
+Use `web-fetch` to read all of these sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Select only recent, useful developments that help developers learn GitHub faster. Keep any update short and practical, verify details against the fetched pages, and identify the relevant GitHub Blog or Changelog source in the content. Update `site/content/github-info.md` only when there is a worthwhile change; avoid duplicating existing material.
 
